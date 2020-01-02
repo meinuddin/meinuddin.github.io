@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+.slide-1,.slide-2,.slide-3,.slide-4
+{
+display:block;
+position:absolute;
+width:1000px;
+height:500px;
+}
+.slide-1
+{
+animation:fade1 5s infinite;
+}
+.slide-2
+{
+animation:fade2 5s infinite;
+}
+.slide-3
+{
+animation:fade3 5s infinite;
+}
+.slide-4
+{
+animation:fade4 5s infinite;
+}
+@keyframes fade1
+{
+0%{opacity:1;}
+25%{opacity:0;}
+50%{opacity:0;}
+75%{opacity:0;}
+100%{opacity:1;}
+}
+@keyframes fade2
+{
+0%{opacity:0;}
+25%{opacity:1;}
+50%{opacity:0;}
+75%{opacity:0;}
+100%{opacity:0;}
+}
+@keyframes fade3
+{
+0%{opacity:0;}
+25%{opacity:0;}
+50%{opacity:1;}
+75%{opacity:0;}
+100%{opacity:0;}
+}
+@keyframes fade4
+{
+0%{opacity:0;}
+25%{opacity:0;}
+50%{opacity:0;}
+75%{opacity:1;}
+100%{opacity:0;}
+}
+</style>
+</head>
+<body>
+<img src="1.jpg" class="slide-1">
+<img src="2.jpg" class="slide-2">
+<img src="3.jpg" class="slide-3">
+<img src="4.jpg" class="slide-4">
+</body>
+</html>

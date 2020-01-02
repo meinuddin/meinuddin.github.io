@@ -1,0 +1,114 @@
+﻿.page
+{
+	width:1330px;
+	height:1785px;
+	border-style:groove;
+}
+.headerpart
+{
+	width:1325px;
+	height:270px;
+	border-style:groove;
+	background-color:red;
+	background-image:url("images/g.jpg");
+	background-repeat:no-repeat;
+}
+.linkspart
+{
+	width:1325px;
+	height:45px;
+	margin-top:7px;
+	border-style:groove;
+	background-color:blue;
+	border-style:groove;
+}
+.linkspart a
+{
+	color:rgb(245,246,251);
+	font-size:40px;	
+}
+.linkspart a:hover
+{
+	background-color:rgb(245,246,252);
+	color:blue;
+}
+.bodypart
+{
+	width:1330px;
+	height:605px;
+	border-style:groove;
+	margin-top:10px;
+}
+.bodypart .imagepart
+{
+	width:850px;
+	height:600px;
+	border-style:groove;
+	margin-top:1px;
+	background-image:url("gif3.gif");
+	background-repeat:no-repeat;
+	background-size:910px;
+	position:absolute;
+	margin:auto;
+	display:inline-block;
+}
+.bodypart .newspart
+{
+	width:430px;
+	height:600px;
+	border-style:groove;
+	float:right;
+}
+.bodypart .newspart h1
+{
+	color:blue;
+	margin-left:60px;
+}
+.bodypart .newspart .news
+{
+    width:390px;
+	height:500px;	
+	margin-left:10px;
+}
+.page
+{
+	color:blue;
+	font-size:15px;
+}
+.footerpart
+{
+	width:1325px;
+	height:45px;
+	margin-top:7px;
+	border-style:groove;
+	background-color:blue;
+	border-style:groove;
+}
+.slidepart
+{
+	width:1325px;
+	height:450px;
+	margin-top:3px;
+	border-style:groove;
+	background-color:purple;
+}
+.lastpart
+{
+	width:1325px;
+	height:85px;
+	margin-top:1px;
+	border-style:groove;
+	background-color:red;
+	color:blue;
+}
+.lastpart a
+{
+	color:rgb(245,246,251);
+	font-size:60px;
+    color:blue;	
+}
+.lastpart a:hover
+{
+	background-color:rgb(245,246,252);
+	color:blue;
+}
